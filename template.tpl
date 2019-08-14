@@ -81,6 +81,10 @@ ___WEB_PERMISSIONS___
               {
                 "type": 1,
                 "string": "https://*.pagesense.io/"
+              },
+              {
+                "type": 1,
+                "string": "https://*.pagesense.cn/"
               }
             ]
           }
@@ -126,4 +130,4 @@ if (queryPermission('inject_script', url)) {
 
 ___NOTES___
 
-Created on 14/08/2019, 15:45:23
+Created on 14/08/2019, 16:15:46
