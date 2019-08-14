@@ -53,6 +53,10 @@ ___TEMPLATE_PARAMETERS___
       {
         "displayValue": "IN",
         "value": "cdn-in.pagesense.io"
+      },
+      {
+        "displayValue": "CN",
+        "value": "cdn.pagesense.cn"
       }
     ]
   }
@@ -122,4 +126,4 @@ if (queryPermission('inject_script', url)) {
 
 ___NOTES___
 
-Created on 13/08/2019, 18:43:26
+Created on 14/08/2019, 15:45:23
