@@ -36,12 +36,9 @@ ___TEMPLATE_PARAMETERS___
     "type": "TEXT"
   },
   {
-    "help": "You'll find the name of your data center in the Project Info section under the Settings tab of your PageSense app.",
-    "displayName": "Data Center",
-    "simpleValueType": true,
-    "name": "dataCenter",
-    "type": "RADIO",
-    "radioItems": [
+    "help": "You can get the data center in the Project Info section under the Settings tab of your PageSense app.",
+    "macrosInSelect": false,
+    "selectItems": [
       {
         "displayValue": "US",
         "value": "cdn.pagesense.io"
@@ -58,7 +55,11 @@ ___TEMPLATE_PARAMETERS___
         "displayValue": "CN",
         "value": "cdn.pagesense.cn"
       }
-    ]
+    ],
+    "displayName": "Data Center",
+    "simpleValueType": true,
+    "name": "dataCenter",
+    "type": "SELECT"
   }
 ]
 
@@ -130,4 +131,4 @@ if (queryPermission('inject_script', url)) {
 
 ___NOTES___
 
-Created on 19/08/2019, 09:45:49
+Created on 19/08/2019, 11:44:43
