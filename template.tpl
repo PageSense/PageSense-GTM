@@ -22,21 +22,21 @@ ___TEMPLATE_PARAMETERS___
 
 [
   {
-    "help": "You can get the space name in the Info section under the Settings tab of your PageSense app.",
+    "help": "You can get the space name in the Project Info section under the Settings tab of your PageSense app.",
     "displayName": "Space Name",
     "simpleValueType": true,
     "name": "portalName",
     "type": "TEXT"
   },
   {
-    "help": "You can get the project key in the Info section under the Settings tab of your PageSense app.",
+    "help": "You can get the project key in the Project Info section under the Settings tab of your PageSense app.",
     "displayName": "Project Key",
     "simpleValueType": true,
     "name": "projectKey",
     "type": "TEXT"
   },
   {
-    "help": "You'll find the name of your data center in the Info section under the Settings tab of your PageSense app.",
+    "help": "You'll find the name of your data center in the Project Info section under the Settings tab of your PageSense app.",
     "displayName": "Data Center",
     "simpleValueType": true,
     "name": "dataCenter",
@@ -130,4 +130,4 @@ if (queryPermission('inject_script', url)) {
 
 ___NOTES___
 
-Created on 14/08/2019, 16:15:46
+Created on 19/08/2019, 09:45:49
