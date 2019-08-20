@@ -105,13 +105,15 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 // Enter your template code here.
 const injectScript = require('injectScript');
 const queryPermission = require('queryPermission');
+const encodeUriComponent = require('encodeUriComponent');
+
 
 const portalName = data.portalName;
 const projectKey = data.projectKey;
 const dataCenter = data.dataCenter;
 
 const url = 
-'https://' + dataCenter + '/js/' + portalName + '/' + projectKey + '.js'; 
+'https://' + encodeUriComponent(dataCenter) + '/js/' + encodeUriComponent(portalName) + '/' + encodeUriComponent(projectKey) + '.js'; 
 
 const onSuccess = () => {
   data.gtmOnSuccess();
@@ -131,4 +133,4 @@ if (queryPermission('inject_script', url)) {
 
 ___NOTES___
 
-Created on 19/08/2019, 11:44:43
+Created on 20/08/2019, 10:32:10
