@@ -1,5 +1,5 @@
 homepage: "https://www.zoho.com/pagesense/",
-documentation: "https://www.example.com/documentation",
+documentation: "https://www.zoho.com/pagesense/help/install-pagesense-code-using-tag-manager.html",
 versions:
   - sha: 123abc
     changeNotes: Initial Version
