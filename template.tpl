@@ -1,8 +1,16 @@
-﻿___INFO___
+﻿___TERMS_OF_SERVICE___
+
+By creating or modifying this file you agree to Google Tag Manager's Community
+Template Gallery Developer Terms of Service available at
+https://developers.google.com/tag-manager/gallery-tos (or such other URL as
+Google may provide), as modified from time to time.
+
+___INFO___
 
 {
   "displayName": "PageSense Tag",
   "description": "This tag will inject PageSense's tracking code snippet on the website pages that have the Google Tag Manager snippet installed.",
+  "categories": ["EXPERIMENTATION", "PERSONALIZATION", "HEAT_MAP"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
@@ -129,7 +137,6 @@ const onFailure = () => {
 
 if (queryPermission('inject_script', url)) {
   injectScript(url, onSuccess, onFailure);
-
 } else {
   data.gtmOnFailure();
 }
