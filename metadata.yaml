@@ -2,7 +2,7 @@ homepage: "https://www.zoho.com/pagesense/"
 documentation: "https://www.zoho.com/pagesense/help/install-pagesense-code-using-tag-manager.html"
 versions:
   # Latest version
-  -sha: 42af5ee7fdcc0458fbbaf3b2c20afea3e64e0d1b
+  - sha: 42af5ee7fdcc0458fbbaf3b2c20afea3e64e0d1b
   changeNotes: |2
   Replaced PageSense Old Logo with New Logo
   Added New Categories under categories property.
