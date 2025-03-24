@@ -1,11 +1,9 @@
 homepage: "https://www.zoho.com/pagesense/"
 documentation: "https://www.zoho.com/pagesense/help/install-pagesense-code-using-tag-manager.html"
 versions:
-  # Latest version
+  # New release
   - sha: 9e94223cc457f4a472620552657a015a1fc4dc06
-  changeNotes: modified injectScript parameters.
-  # Older versions
-  - sha: 42af5ee7fdcc0458fbbaf3b2c20afea3e64e0d1b
-  changeNotes: Replaced PageSense Old Logo with New Logo and Added New Categories under categories property.
+    changeNotes: Replaced PageSense Old Logo with New Logo and Added New Categories under categories property and modified injectScript parameters.
+  # First release
   - sha: fd7c0672ffaf205a29718b450482bd46c6e40128
-  changeNotes: Initial Version.
+    changeNotes: Initial Version.
