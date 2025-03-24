@@ -6,6 +6,6 @@ versions:
   changeNotes: modified injectScript parameters.
   # Older versions
   - sha: 42af5ee7fdcc0458fbbaf3b2c20afea3e64e0d1b
-  changeNotes: Replaced PageSense Old Logo with New Logo. Added New Categories under categories property.
+  changeNotes: Replaced PageSense Old Logo with New Logo and Added New Categories under categories property.
   - sha: fd7c0672ffaf205a29718b450482bd46c6e40128
   changeNotes: Initial Version.
