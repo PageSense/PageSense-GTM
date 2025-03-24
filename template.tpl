@@ -99,7 +99,6 @@ const injectScript = require('injectScript');
 const queryPermission = require('queryPermission');
 const encodeUriComponent = require('encodeUriComponent');
 
-
 const portalName = data.portalName;
 const projectKey = data.projectKey;
 const dataCenter = data.dataCenter;
@@ -116,7 +115,8 @@ const onFailure = () => {
 };
 
 if (queryPermission('inject_script', url)) {
-  injectScript(url, onSuccess, onFailure);
+  injectScript(url, data.gtmOnSuccess(), data.gtmOnFailure());
+  
 
 } else {
   data.gtmOnFailure();
@@ -166,6 +166,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 21/03/2025, 10:57:40
+Created on 24/03/2025, 10:34:31
 
 
